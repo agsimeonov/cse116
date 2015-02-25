@@ -1,0 +1,33 @@
+The tests were written very clearly and were organized 
+
+according to which functionality they were testing for. The 
+
+descriptions at the top of each test made it easy to 
+
+understand which functionality the tests were testing for. 
+
+They set up the JUnit4 tests very well and were very 
+
+organized with their setup() and teardown() methods. The 
+
+main code for the project are just stubbed out. No real 
+
+implementation has begun which is good for this beginning 
+
+stage of the projcet. I would suggest putting the expected 
+
+and actual values into your assertTrue comments, especially 
+
+for the integer expected and actual variables. That way if 
+
+the test happens to fail you can see what the actual value 
+
+was and can adjust the code accordingly. They tested for 
+
+most of the functionality of the test but they did not test 
+
+for the end of the game. They did test for the position of 
+
+a piece which my team did not test for. The idea for the 
+
+position method seems like a very good idea.

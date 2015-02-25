@@ -1,0 +1,52 @@
+The tests written for Stage 1 of the project were clearly written and the 
+goal of each test was easily identifiable.  The test names indicated the 
+functionality of the test, and in the case that there was confusion, the 
+comments prior to each test were very helpful. 
+The tests written provided good coverage for the requirements specified, 
+but there may be a few tests that could more accurately test the code that
+will later be written.  The noticeable missing tests only occurred when 
+testing the beginning and end of the game.  For the beginning, I noticed 
+that the playersÕ colors were tested, but the tests may be stronger if a 
+test was written to check if player 1 goes first, and if each player can 
+move left or right onto the board.  In addition, multiple tests were 
+written in order to test the functionality of moving pieces from one 
+space to another, but none that tested moved a piece off of the board.  
+I think this test will be highly beneficial when implementing the code. 
+There were some very good ideas that were presented in these tests that
+would have greatly helped my tests as well.  A couple of the first tests 
+written checked the playersÕ colors; this is an element of the test suite
+I had not thought of, but will later be helpful.  Also, I noticed all of
+the comments and how informative they are, and how much they make the 
+tests easier to understand.  This is something that I would have benefited 
+from by using in my tests. 
+The testsÕ ÒsyntaxÓ was written correctly as JUnit4 tests.  The setUp and 
+tearDown methods were executed effectively.  Before each test there was an
+@Test annotation indicating a test.  Expected and actual values were 
+clear and present in the test code, but they were not used in the 
+assertTrue comment, which will be very important when implementing the 
+code. 
+The quality of the code is very high; the tests had no unused variables.  
+The quality of the setUp and tearDown methods was also great as the 
+correct number and type of objects were instantiated for the use in the 
+following tests.  The only tests that may need revisiting were for small 
+typos.  In the testBoardPositionWithTwoTokensUsingGetPosition test and the 
+testBoardPositionsUsingGetPosition test, both the first and second token 
+should be used in the actual value as opposed to comparing the first token
+to itself. 
+The tests written referred to reasonable classes; the classes used were 
+BoardPosition, GameBoard, Stack, and Token.  There were no classes present
+that were not part of the customerÕs description of the problem. 
+The submission only includes stubbed-out methods and has not made 
+assumptions about the implementation code.  That said, there are a few 
+suggestions to be made that are not necessarily crucial to the 
+functionality of the code, but may make it more flexible.  Within the 
+BoardPosition class, the setPosition method (a mutator) may be more useful
+when returning a boolean; this is also relevant to the setColor method in
+the Token class.  The Stack class has a method returnTokens that returns
+a token, but if it is returning more than one token it should return 
+an array of tokens (if it always should return only one token, then 
+the method name should be revisited).  Lastly, the Token class has a 
+getColor method, where it currently returns a string, but may be more 
+versatile if it returned a color.  While the classes that were written 
+are compatible with the specified tests, there are other possible ways 
+to write them that could make the code more flexible.  

@@ -1,0 +1,38 @@
+After reviewing team cse-t039's code, several suggestions and comments may be made to
+improve the quality. Beginning with the overall clarity of the test suite, I found that
+the code was well commented and easy to understand what tests they were attempting. The 
+method headers were descriptive yet concise. The spacing and layout of each test provides 
+easy readability and shows good organization.
+
+The extent of the tests falls short of the customer expectations. The tests that were 
+included are a little repetitive. The file "testAB" consists of a variety of tests for the
+size of the board using different methods of checking. The "testAC" file closely resembles
+that of "testAB" in that the tests use different methods of checking size, only this time
+for the stack size. Moreover, "testBC" is a step in the right direction. Instead of testing
+the same functionality several ways, the team includes multiple types of tests. There are 
+several tests that could have been a great addition to testing the functionality of the 
+program. Tests I would suggest include the following:
+	1. Test that the token moves appropriately from the left and right to the center of
+	the game board.
+	2. Test a player trying to move the other player's token.
+	3. Test that the board initially has the correct number of stacks and tokens.
+	4. Test to see if a player has removed all his pieces (game over).
+	5. Test that a piece is removed from the board when appropriate.
+I did not find any tests that my team had not attempted to test. The test files were 
+created correctly using JUnit 4, with proper annotations, and acceptable setup method 
+definition. The code is well written without unused variables, code duplication, and
+no over-complicated method definitions. 
+
+The class and method assumptions seem reasonable. I have some confusion of the
+"setPosition" and "move" methods. I believe only one of the methods is necessary to move 
+the token. Also, I do not understand the use of the "BoardPosition" class. Some re-thinking
+of the structure will probably lead to clarification in further stage processes. The code 
+of the class method definitions were properly stubbed out with correct return values and no
+implementation as advised.
+
+Overall, team cse-t039 is off to a descent start and has the basic ideas necessary to 
+understand what has to be done. The code organization and comments will help immensely when
+it comes to implementation and further testing. One additional comment that may help in the
+future is, instead of simply providing a line of text as feedback for a failed test, I 
+would suggest concatenation with the "expected" and "actual" variables which may help 
+clarify why some tests fail. 

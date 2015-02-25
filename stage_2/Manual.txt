@@ -1,0 +1,35 @@
+LOTUS GAME
+___________________________________________
+
+NOTE:
+This games follows the rules specified at
+http://www.cse.buffalo.edu/faculty/alphonce/Courses/Spring2010/cse116/Project/Stage1/
+___________________________________________
+
+UNDERSTANDING AND USING THE GUI:
+
+-The top left hand corner displays who's turn it currently is
+-NOTE : Next to it one notices a Play display, this display changes to the SKIP button whenever skipping is possible
+otherwise the Skip Button is unusable and not displayed at all.
+-The Lotus game starts with all positions empty and the middle having 10 white and 10 black pieces
+-Initially a player can choose to start left or right if they use stacks with sizes 1, 2, or 3
+-When you click on a stack you should see the options of where you can move to
+-Once you click on one of the options you will move there
+-The rest applies for the rest of the game
+-If you click on the same button or an empty button you will deselect your current selection
+-If you click on another button containing pieces which is not one of the final options you will select this new button and new final options will appear
+-Each position except for trampoline and finish display the size of the stack which they possess with a number in the middle
+-If you scroll over a button you will be able to see the stack composition
+-White dots represent white pieces, black dots represent black pieces they display the stack from top to bottom
+-If the final position is trampoline (teal colored) you will see that trampoline is going to be used and the new final position afterwards will be given to you as an option
+-If you can not move you are given the option to skip or play one of your opponents pieces
+-You can not use an opponents piece unless you can not move (all your pieces are covered)
+-A piece moves an amount based on the stack size
+-The trampoline doubles the amounts of spaces you went through to get to it thus making you jump forward
+-The finish positions (in dark green) takes pieces out of the board
+-If either play takes all their pieces out of the board a Dialog box will appear announcing the winner, and the game will end there.
+
+ESSENTIALLY:
+-Essentially this GUI uses a select and click procedure to determine if a piece is moved, deselected, or another one is selected.
+
+ENJOY THE GAME!
